@@ -24,3 +24,6 @@ This one is more of a stretch.
 Uncomment the line `main.challenge()` method in the static main method.
 
 Fill in the `Challenge` class so that it works with the `challenge.json` file.
+
+## Answers
+There is a branch called `answers` that has the two task Classes filled in.

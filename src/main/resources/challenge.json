@@ -1,0 +1,16 @@
+{
+  "drawNumber": 101,
+  "luckyNumbers": [ 3, 7, 12, 13, 17, 43],
+  "presenter": "Bruce Forsyth",
+  "cameraOperators": [
+    {
+      "name": "Jim",
+      "age": 46
+    },
+    {
+      "name": "Arv",
+      "age": 33
+    }
+  ]
+
+}

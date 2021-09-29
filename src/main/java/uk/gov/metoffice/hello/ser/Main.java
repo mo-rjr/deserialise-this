@@ -23,7 +23,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Main main = new Main();
         main.example();
-//        main.go();
+//        main.simple();
 //        main.challenge();
     }
 
@@ -33,7 +33,7 @@ public class Main {
         System.out.println(moreComplicatedObject);
     }
 
-    private void go() throws IOException {
+    private void simple() throws IOException {
         String fileContent = readFileFromResourcesFolder("simple.json");
         Simple simple = OBJECT_MAPPER.readValue(fileContent, Simple.class);
         System.out.println(simple); // implement a toString method on Simple -- or autogenerate one

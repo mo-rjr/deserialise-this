@@ -41,7 +41,7 @@ public class Main {
 
     private void challenge() throws IOException {
         String fileContent = readFileFromResourcesFolder("challenge.json");
-        Simple simple = OBJECT_MAPPER.readValue(fileContent, Simple.class);
+        Challenge simple = OBJECT_MAPPER.readValue(fileContent, Challenge.class);
         System.out.println(simple); // implement a toString method on Simple -- or autogenerate one
     }
 
